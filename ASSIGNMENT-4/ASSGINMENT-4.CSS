@@ -1,0 +1,33 @@
+.flex{
+  display: flex;
+  background-color:whitesmoke;
+  margin: 3px;
+  margin-bottom: 40px;
+  padding: 3px;
+}
+
+.flex > div{
+  width: 150px;
+  margin: 10px;
+  font-size: 23px;
+  line-height: 30px;
+  background-color:yellow;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 skyblue;
+  width: 30%;
+  border:3px solid skyblue;
+  display: inline-table;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 skyblue;
+}
+
+.container {
+  padding: 2px 16px;
+}
